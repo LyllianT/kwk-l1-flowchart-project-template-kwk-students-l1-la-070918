@@ -1,0 +1,136 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="app/views/file.css">
+  <style>
+      body {
+        background-color: purple;
+        font-size: 300%;
+        text-align:center;
+        background-image: url("https://thumbs.dreamstime.com/b/seamless-pattern-cute-pet-wild-cartoon-animals-vector-texture-wallpapers-fills-web-page-backgrounds-40355277.jpg");
+        font-family: 'Knewave', cursive;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Hi <%=@name%></h1>
+    <h3>Your answers tell me that you are most like a <%=@the_answer%> </h3>
+    <br>
+    <a href="/">Start over</a>
+    <br>
+  </body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" type="text/css" href="app/views/file.css">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+html {
+  box-sizing: border-box;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.column {
+  float: left;
+  width: 33.3%;
+  margin-bottom: 16px;
+  padding: 0 8px;
+}
+
+@media screen and (max-width: 650px) {
+  .column {
+    width: 100%;
+    display: block;
+  }
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+}
+
+.container {
+  padding: 0 16px;
+}
+
+.container::after, .row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.title {
+  color: grey;
+}
+
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+.button:hover {
+  background-color: #555;
+}
+
+</style>
+</head>
+<body>
+
+<h1> <em> <b> MEET THE TEAM! </b></em></h1>
+<br>
+
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <img src="https://files.slack.com/files-pri/TB200QLDV-FBTFD8AFM/copy_of_img_3249.jpg" alt="Julia" style="width:100%">
+      <div class="container">
+        <h2>Julia Cuervo</h2>
+        <p class="title">A Coder</p>
+        <p>I created this team, they all copy me.</p>
+        <p>juliahcuervo@gmail.com</p>
+        <p><button class="button">Don't You Dare</button></p>
+      </div>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <img src="https://files.slack.com/files-pri/TB200QLDV-FBUKQ9Q2K/2018-07-17-12-40-33-663.jpg" alt="Mike" style="width:100%">
+      <div class="container">
+        <h2>Liz Osoy</h2>
+        <p class="title">A Coder</p>
+        <p>I created this team, they all copy me.</p>
+        <p>lizosoy18@gmail.com</p>
+        <p><button class="button">Click If Ya Want I Don't CAre lol</button></p>
+      </div>
+    </div>
+  </div>
+  <div class="column">
+    <div class="card">
+      <img src="https://files.slack.com/files-pri/TB200QLDV-FBTKLCQ1G/img_3242__1_.jpg" alt="Lyllian" style="width:100%">
+      <div class="container">
+        <h2>Lyllian Timothee</h2>
+        <p class="title">A Coder</p>
+        <p>Bibbity Bobbity Boo</p>
+        <p>lilyterrifc2008@gmail.com</p>
+        <p><button class="button">Don't @ Me</button></p>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

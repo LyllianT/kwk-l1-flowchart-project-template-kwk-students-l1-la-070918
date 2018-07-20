@@ -1,0 +1,36 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="app/views/file.css">
+    <link href="https://fonts.googleapis.com/css?family=Knewave" rel="stylesheet">
+  <style>
+      body {
+        background-color: purple;
+        font-size: 300%;
+        text-align:center;
+        background-image: url("https://thumbs.dreamstime.com/b/seamless-pattern-cute-pet-wild-cartoon-animals-vector-texture-wallpapers-fills-web-page-backgrounds-40355277.jpg");
+       font-family: 'Knewave', cursive;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>What animal are you most like... let's get started</h1>
+    <p>Nice purse or nice shoes?</p>
+    <form method = POST>
+      <input id="questionNumber" name="questionNumber" type="hidden" value="4">
+      <input id="name" name="name" type="hidden" value="<%=@name%>">
+      <input id="first" name="first" type="hidden" value="<%=@choice1%>">
+      <input id="second" name="second" type="hidden" value="<%=@choice2%>">
+
+      <input type="radio" id="third" name="third" value="0">Purse
+      <br>
+      <input type="radio" id="third" name="third" value="1">Shoes
+  
+      <br>
+      <input type = "submit" value = "For Sure!">
+    </form>
+  </body>
+  </head>
+</html>
+

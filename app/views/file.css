@@ -1,0 +1,12 @@
+body {
+    background-color: orange;
+    color: magenta;
+    font-size: 800%;
+    font-family: 'Poiret One', cursive;
+    border: 5px dotted red;
+}
+
+h1 {
+  color: cyan;
+}
+

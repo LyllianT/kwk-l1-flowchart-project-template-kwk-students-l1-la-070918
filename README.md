@@ -8,7 +8,7 @@ One of your final projects can be a "Flowchart" style application that can lead 
 
 You can build all sorts of useful applications with this model, from helping someone pick a major in college, to deciding whether you should have another cookie (yes. always.), to knowing whether your friend might need help, to all sorts of use-cases. That's what makes this type of project fun, once you get the framework of the code working, you can add your own content and help people make better decisions.
 
-You can see a sample version of this application that will help you decide ["Should You Got Out Tonight"](https://blooming-forest-38924.herokuapp.com/quiz/1)
+You can see a sample version of this application that will help you decide ["Should You Go Out Tonight"](https://blooming-forest-38924.herokuapp.com/quiz/1)
 
 ## Concept
 
